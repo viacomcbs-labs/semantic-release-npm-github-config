@@ -2,9 +2,9 @@
   "name": "@vc-vantage/semantic-release-npm-github-config",
   "version": "1.0.0",
   "description": "semantic-release shareable configuration for GitHub",
-  "main": ".releaserc.yaml",
+  "main": ".releaserc.json",
   "files": [
-    ".releaserc.yaml"
+    ".releaserc.json"
   ],
   "publishConfig": {
     "access": "public"
