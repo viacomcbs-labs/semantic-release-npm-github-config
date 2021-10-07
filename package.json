@@ -1,37 +1,32 @@
 {
-  "name": "@jedmao/semantic-release-npm-github-config",
-  "version": "1.0.9",
-  "description": "semantic-release shareable configuration for npm + GitHub",
-  "main": ".releaserc.json",
+  "name": "@vc-vantage/semantic-release-npm-github-config",
+  "version": "1.0.0",
+  "description": "semantic-release shareable configuration for GitHub",
+  "main": ".releaserc.yaml",
   "files": [
-    ".releaserc.json"
+    ".releaserc.yaml"
   ],
-  "scripts": {
-    "commit": "git-cz",
-    "test": "xo"
-  },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedmao/semantic-release-npm-github-config.git"
+    "url": "https://github.com/vc-vantage/semantic-release-npm-github-config.git"
   },
   "keywords": [
     "semantic-release",
     "semantic-release-config",
-    "npm",
     "github",
     "git",
     "release",
     "changelog"
   ],
-  "author": "Jed Mao <jedmao@outlook.com>",
+  "author": "Piotr Plenik <piotr.plenik@vimn.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedmao/semantic-release-npm-github-config/issues"
+    "url": "https://github.com/vc-vantage/semantic-release-npm-github-config/issues"
   },
-  "homepage": "https://github.com/jedmao/semantic-release-npm-github-config#readme",
+  "homepage": "https://github.com/vc-vantage/semantic-release-npm-github-config#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
