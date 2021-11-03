@@ -2,9 +2,9 @@
   "name": "@viacomcbs-labs/semantic-release-npm-github-config",
   "version": "1.0.0",
   "description": "semantic-release shareable configuration for GitHub",
-  "main": ".releaserc.json",
+  "main": "release.config.js",
   "files": [
-    ".releaserc.json"
+    "release.config.js"
   ],
   "publishConfig": {
     "access": "public"

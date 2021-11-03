@@ -16,8 +16,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: Prepare configuration
-        run: cp -f .releaserc.ci.json .releaserc.json
       - name: Install
         env:
           CI: true
