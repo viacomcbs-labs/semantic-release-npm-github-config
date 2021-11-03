@@ -1,5 +1,5 @@
 {
-  "name": "@vc-vantage/semantic-release-npm-github-config",
+  "name": "@viacomcbs-labs/semantic-release-npm-github-config",
   "version": "1.0.0",
   "description": "semantic-release shareable configuration for GitHub",
   "main": ".releaserc.json",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vc-vantage/semantic-release-npm-github-config.git"
+    "url": "https://github.com/viacomcbs-labs/semantic-release-npm-github-config.git"
   },
   "keywords": [
     "semantic-release",
@@ -24,9 +24,9 @@
   "author": "Piotr Plenik <piotr.plenik@vimn.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vc-vantage/semantic-release-npm-github-config/issues"
+    "url": "https://github.com/viacomcbs-labs/semantic-release-npm-github-config/issues"
   },
-  "homepage": "https://github.com/vc-vantage/semantic-release-npm-github-config#readme",
+  "homepage": "https://github.com/viacomcbs-labs/semantic-release-npm-github-config#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
