@@ -33,3 +33,36 @@
 - [@semantic-release/github](https://github.com/semantic-release/release-notes-generator)
    - Publish a [GitHub release](https://help.github.com/articles/about-releases) and comment on released Pull Requests.
 
+## Install
+
+```bash
+npm i --save-dev semantic-release @viacomcbs-labs/semantic-release-npm-github-config
+```
+
+# Usage in GitHub Action
+
+Basic usage:
+
+```yaml
+steps:
+  - name: Checkout
+    uses: actions/checkout@v2
+  - name: Semantic Release
+	  id: semantic
+    uses: cycjimmy/semantic-release-action@v2
+		extends: |
+			@viacomcbs-labs/semantic-release-npm-github-config@v1.0.0
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+
+
+The shareable config can be configured in the [semantic-release configuration file](https://semantic-release.gitbook.io/semantic-release/usage/configuration#configuration-file).
+
+Example of `.releaserc.yaml`:
+
+```yaml
+extends: "@viacomcbs-labs/semantic-release-npm-github-config"
+branch: master
+```
