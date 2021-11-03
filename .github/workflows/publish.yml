@@ -17,9 +17,10 @@ jobs:
         with:
           node-version: 14
       - name: Install
+        run: npm ci
         env:
           CI: true
-        run: npm ci
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Semantic Release
         if: success()
         env:
