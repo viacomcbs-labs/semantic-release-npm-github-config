@@ -27,9 +27,9 @@
 ### Using plugins
 
  - [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
-   Ensures that commits are conformed to the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
+   - Ensures that commits are conformed to the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
  - [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator)
-   Generate changelog content with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+   - Generate changelog content with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
 - [@semantic-release/github](https://github.com/semantic-release/release-notes-generator)
-   Publish a [GitHub release](https://help.github.com/articles/about-releases) and comment on released Pull Requests.
+   - Publish a [GitHub release](https://help.github.com/articles/about-releases) and comment on released Pull Requests.
 
