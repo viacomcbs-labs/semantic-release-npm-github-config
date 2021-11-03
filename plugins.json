@@ -11,5 +11,12 @@
 			}
 		}
 	],
-	"@semantic-release/github"
+	"@semantic-release/github",
+	[
+		"@semantic-release/exec",
+		{
+				"verifyConditions": "echo 'a'",
+				"publishCmd": "TAG=${nextRelease.version} docker buildx bake -f docker-bake.hcl"
+		}
+	]
 ]
