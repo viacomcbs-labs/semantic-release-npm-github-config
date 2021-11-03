@@ -4,7 +4,8 @@
   "description": "semantic-release shareable configuration for GitHub",
   "main": "release.config.js",
   "files": [
-    "release.config.js"
+    "release.config.js",
+    "plugins.json"
   ],
   "publishConfig": {
     "access": "public"
@@ -52,6 +53,7 @@
     "semantic-release": ">=18.0.0"
   },
   "devDependencies": {
+    "@viacomcbs-labs/semantic-release-npm-github-config": "github:viacomcbs-labs/semantic-release-npm-github-config#v1.3.0",
     "commitizen": "^3.0.0",
     "cz-conventional-changelog": "^3.0.1",
     "semantic-release": "^18.0.0",
